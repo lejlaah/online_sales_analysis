@@ -17,3 +17,14 @@ manager.total_inventory_value()
 
 manager.remove_product("Mouse")
 manager.display_products()
+
+from cart import Cart
+cart = Cart()
+
+cart.add_to_cart(p1)
+cart.add_to_cart(p2)
+cart.add_to_cart(p3)
+
+cart.display_cart()
+
+print(cart.total_price())
