@@ -14,3 +14,6 @@ manager.add_product(p3)
 manager.display_products()
 
 manager.total_inventory_value()
+
+manager.remove_product("Mouse")
+manager.display_products()
